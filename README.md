@@ -71,6 +71,8 @@ conda activate scaffold_gs
 ```
 把yml里面的两个submodule注释掉，然后`pip install mkl==2024.0.0`，然后进入两个submodule `pip install .`
 
+pip install jaxtyping
+
 
 
 
