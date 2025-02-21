@@ -69,7 +69,8 @@ SET DISTUTILS_USE_SDK=1 # Windows only
 conda env create --file environment.yml
 conda activate scaffold_gs
 ```
-把yml里面的两个submodule注释掉
+把yml里面的两个submodule注释掉，然后`pip install mkl==2024.0.0`，然后进入两个submodule `pip install .`
+
 
 ## Data
 
