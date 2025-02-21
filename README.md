@@ -73,6 +73,8 @@ conda activate scaffold_gs
 
 pip install jaxtyping
 
+pip install opencv-python
+
 
 
 
