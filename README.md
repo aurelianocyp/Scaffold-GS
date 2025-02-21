@@ -72,6 +72,8 @@ conda activate scaffold_gs
 把yml里面的两个submodule注释掉，然后`pip install mkl==2024.0.0`，然后进入两个submodule `pip install .`
 
 
+
+
 ## Data
 
 First, create a ```data/``` folder inside the project path by 
@@ -129,6 +131,8 @@ To train multiple scenes in parallel, we provide batch training scripts:
  ```
 bash train_xxx.sh
  ```
+如果提示bash语法有误，咨询gpt吧
+
 
  > Notice 1: Make sure you have enough GPU cards and memories to run these scenes at the same time.
 
