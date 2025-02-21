@@ -61,6 +61,7 @@ git clone https://github.com/city-super/Scaffold-GS.git --recursive
 cd Scaffold-GS
 ```
 
+
 2. Install dependencies
 
 ```
@@ -68,6 +69,7 @@ SET DISTUTILS_USE_SDK=1 # Windows only
 conda env create --file environment.yml
 conda activate scaffold_gs
 ```
+把yml里面的两个submodule注释掉
 
 ## Data
 
