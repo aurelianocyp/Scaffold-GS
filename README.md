@@ -185,6 +185,7 @@ python metrics.py -m <path to trained model> # Compute error metrics on renderin
 ```
 
 ## Viewer
+它的viewer应该是没法在linux上跑的，把outputs和data下载到Windows然后` .\SIBR_gaussianViewer_app.exe -s D:\AAA\files\code\python_code\Scaffold-GS\data\bungeenerf\bilbao -m D:\AAA\files\code\python_code\Scaffold-GS\outputs\bungeenerf\bilbao\baseline\2025-02-21_20_16_40`吧
 
 The [viewer](https://github.com/city-super/Scaffold-GS/tree/main/SIBR_viewers) for Scaffold-GS is available now. 
 
